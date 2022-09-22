@@ -27,8 +27,13 @@ body{
 h1, h2, h3{
     font-family: "Montserrat_tittles";
 }
-p{
+.holis {
     font-family: "Montserrat_tittles";
+    font-size: 1.5rem;
+}
+p{
+    font-family: "parrafos";
+    font-size: 1rem;
 }
 /*Estilos generales termina aquí*/
 /*Todo lo siguiente es la barra nav*/
@@ -188,7 +193,7 @@ p{
     font-size: 1rem;
     padding: 2px;
     margin: 4px;
-    width: 40%;
+    width: 400px;
     border-radius: 30px;
     opacity: 0.6;
 }
@@ -198,19 +203,22 @@ p{
     font-size: 1rem;
     padding: 2px;
     margin: 2px;
-    width: 40%;
+    width: 500px;
     border-radius: 30px;
     border: solid rgb(193, 251, 21) 4px  ;
     opacity: 1;
 }
 .leccion p{
-    font-family: "parrafos";
+    font-family: "Montserrat_tittles";
     color: rgba(0, 0, 0, 0.637);
 }
 .leccion img{
     width: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+.leccion .parraf{
+    font-family: "parrafos";
 }
 
 /*Aquí termina kid´s section*/
