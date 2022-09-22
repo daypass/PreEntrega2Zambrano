@@ -12,6 +12,10 @@
     font-family: "Montserrat_p";
     src: url(../assets/fonts_day/Montserrat-Regular.ttf);
 }
+@font-face {
+    font-family: "parrafos";
+    src: url(../assets/fonts_day/Montserrat-Medium.ttf);
+}
 body{
     background-image: url(../assets/img_day/sky.jpg);
     color: aliceblue;
@@ -102,6 +106,18 @@ p{
     font-size: 1.1rem;
 }
 /*Aquí termina la nav*/
+/*Aquí empiezan los titulos*/
+.cohete img{
+    width: 200px;
+    animation: fadeOutRightBig;
+    animation-duration: 20s; 
+}
+.animate__animated.animate__fadeOutRightBig {
+    --animate-duration: 12s;
+    --animate-delay: 5s;
+    --animate-repeat: infinite;
+  }
+/*Aquí terminan los titulos*/
 /*Aquí empieza el footer*/
 .foot{
     width: 90%;
@@ -158,3 +174,43 @@ p{
 }
 
 /*Aquí termina principal question*/
+/*Aquí empieza kid´s section*/
+.kid_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2px;
+    margin: 4px;
+}
+.leccion{
+    background-color: rgba(240, 248, 255, 0.795);
+    color: black;
+    font-size: 1rem;
+    padding: 2px;
+    margin: 4px;
+    width: 40%;
+    border-radius: 30px;
+    opacity: 0.6;
+}
+.leccion:hover{
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+    padding: 2px;
+    margin: 2px;
+    width: 40%;
+    border-radius: 30px;
+    border: solid rgb(193, 251, 21) 4px  ;
+    opacity: 1;
+}
+.leccion p{
+    font-family: "parrafos";
+    color: rgba(0, 0, 0, 0.637);
+}
+.leccion img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/*Aquí termina kid´s section*/
